@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>index2</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../../css/base.css">
+</head>
+<body class="body">
+	<header class="container w-margin-top-100">
+	<!-- 导航 开始 -->
+		<div class="row">
+			<nav class="col-md-offset-2 col-md-6 col-lg-6 col-lg-offset-2">
+				<ul class="nav nav-tabs nav-justified">
+				  <li><a href="#" id="index">首页</a></li>
+				  <li><a href="templateLibrary.html">模板库</a></li>
+				  <li><a href="accountManagement.html">账号管理</a></li>
+				</ul>
+			</nav>
+			<!-- 登录 注册 -->
+			<div class="col-md-4 col-lg-4">
+				<div class="dropdown hide" id="welcome">
+				   欢迎您<button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown"><span class="name"></span>
+				    </button>
+				    <ul class="dropdown-menu user-ul" role="menu" aria-labelledby="dropdownMenu1">
+				        <li role="presentation" class="user-style">
+				       	  <span data-toggle="modal" data-target="#newpswdForm">修改密码</span>
+				        </li>
+				        <li role="presentation" class="user-style">
+				            <span data-toggle="modal" data-target="#leave">退出登陆 </span>
+				        </li>
+				    </ul>
+				</div>
+				<div class="col-md-12 col-md-offset-3" id="regLogin">
+					<a href="index.html" style="color: white"><h4 class="col-md-3" style="cursor: pointer;">登陆</h4></a>
+					<a href="index.html" style="color: white"><h4 class="col-md-3" style="cursor: pointer;">注册</h4></a>
+				</div>
+			</div>
+		</div>
+	<!-- 导航结束 -->
+
+		<!-- search start -->
+		<form class="bs-example bs-example-form" role="form" style="margin:20px 0">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<div class="input-group" id="searchBox">
+						<input type="text" class="form-control" id="searchText" autocomplete="off" disableautocomplete>
+						<span class="input-group-btn">
+							<button class="btn btn-default" type="button" id="searchBtn">
+								搜索
+							</button>
+						</span>
+					</div><!-- /input-group -->
+				</div><!-- /.col-md-6 -->
+			</div><!-- /.row -->
+		</form>
+		<!--  serach end -->
+	</header>
+	<div class="row clearfix" style="width: 80%;margin: 0 auto">
+		<table class="table table-hover text-center">
+		  <thead>
+		    <tr>
+		      <th class="text-center pull-left"><h3>热门问卷</h3></th>
+		    </tr>
+		  </thead>
+		  <tbody id="titleBox">
+		    <tr>
+		      <td><a href="#" > 大学生消费观调查</a></td>
+		      <td><a href="#">删除</a></td>
+		    </tr>
+		  </tbody>
+		</table>
+	</div>
+
+	<!-- 修改密码模态框 -->
+	
+	<!-- 模态框（Modal） -->
+	<div class="modal fade" id="newpswdForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	            <div class="modal-header">
+	                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	                <h4 class="modal-title text-center" style="color: #CB8A60;" id="newModal">问卷调查系统</h4>
+	            </div>
+	            <div class="modal-body text-center" style="color: #000;">
+	            	<div class="form-group">
+					    <div class="col-sm-10 col-sm-offset-1">
+					      <input type="password" class="form-control" id="pswd" placeholder="原密码">
+					    </div>
+					    <div class="col-sm-10 col-sm-offset-1">
+					      <input type="password" class="form-control" id="newpswd" placeholder="新密码">
+					    </div>
+					    <div class="col-sm-10 col-sm-offset-1">
+					      <input type="password" class="form-control" id="newpswdA" placeholder="确认新密码">
+					    </div>
+					 </div>
+				</div>
+	            <div class="modal-footer">
+	                <button type="button" class="btn btn-default" id="newBtn">确定</button>
+	            </div>
+	        </div><!-- /.modal-content -->
+	    </div><!-- /.modal -->
+	</div>
+	<!-- 用户退出 -->
+	<div class="modal fade" id="leave" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	            <div class="modal-header">
+	                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	                <h4 class="modal-title text-center" id="leaveModal" style="color: #CB8A60;">问卷调查系统</h4>
+	            </div>
+	            <div class="modal-body text-center" style="color: #000;">你确定退出么!</div>
+	            <div class="modal-footer ">
+	                <button type="button" class="btn btn-default" id="logOut" style="float: none;">确定</button>
+	            </div>
+	        </div><!-- /.modal-content -->
+	    </div><!-- /.modal -->
+	</div>
+
+<footer style="width: 100%; height: 50px;"></footer>
+<script src="../../js/url.js"></script>
+<script src="../../js/jquery.js"></script>
+<script src="../../js/cookie.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<script src="../../js/common.js"></script>
+<script src="../../js/index2.js"></script>
+<script src="../../js/super.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+from dwsl import userservice
+from dwsl import questionnaireservice
+from dwsl import visitorservice
+from dwsl import adminservice
+
+routedict = {
+    userservice.CheckUserExist: "/v1/user/signup/",
+    userservice.GetSecretQuestions:"/v1/user/secret/questions/",
+    userservice.AddUser:"/v1/user/signup/",
+    userservice.CheckLogin:"/v1/user/login/",
+    userservice.TokenDelete:"/v1/token/delete/",
+    userservice.ShowQuestion:"/v1/user/show/question/",
+    userservice.CheckSecurity:"/v1/user/check/security/",
+    userservice.FindPassword:"/v1/user/find/password/",
+    userservice.CheckOldpassword:"/v1/user/check/oldpassword/",
+    userservice.ModifyPassword:"/v1/user/modify/password/",
+    userservice.ShowUserName:"/v1/show/user/name/",
+    questionnaireservice.CreateQuestionnaire:"/v1/create/questionnaire/",
+    questionnaireservice.UpdateQuestionnaire:"/v1/update/questionnaire/",
+    questionnaireservice.QuestionnaireShow:"/v1/questionnaire/show/",
+    questionnaireservice.ClassifyContents:"/v1/questionnaire/classify/contents/",
+    questionnaireservice.DeleteQuestionnaire:"/v1/questionnaire/delete/",
+    questionnaireservice.SearchQuestionnaire:"/v1/search/questionnaire/",
+    questionnaireservice.QuickSearch:"/v1/quick/search/questionnaire/",
+    questionnaireservice.AllQuestionnaires:"/v1/all/questionnaires/",
+    questionnaireservice.PublishQuestionnaire:"/v1/questionnaire/publish/",
+    questionnaireservice.GetQuestionnaireId:"/v1/questionnaire/getid/",
+    questionnaireservice.SaveTemplate:"/v1/questionnaire/save/template/",
+    questionnaireservice.QuestionnaireLink:"/v1/questionnaire/link/",
+    questionnaireservice.TemplateShow:"/v1/questionnaire/template/show/",
+    questionnaireservice.QuestionnaireShow:"/v1/questionnaire/show/",
+    questionnaireservice.CreateSubjectItem:"/v1/subject/createitem/",
+    questionnaireservice.GetSubjectId:"/v1/subject/getid/",
+    questionnaireservice.DeleteSubject:"/v1/subject/delete/",
+    questionnaireservice.UpdateSubject:"/v1/subject/update/",
+    questionnaireservice.QuestionnaireDetail:"/v1/questionnaire/detail/",
+    questionnaireservice.QuestionnaireClassify:"/v1/questionnaire/classify/",
+    visitorservice.OpenLink:"/v1/visitor/openlink/",
+    visitorservice.FillIn:"/v1/visitor/fillin/",
+    visitorservice.Alarm:"/v1/visitor/alarm/",
+    visitorservice.OpenTitle:"/v1/visitor/opentitle/",
+    adminservice.AllQuestionnaire:"/v1/admin/all/questionnaires/",
+    adminservice.QuestionnaireDelete:"/v1/admin/delete/questionnaire/",
+    adminservice.DeleteUser:"/v1/admin/user/delete/",
+    adminservice.AllUsers:"/v1/admin/all/users/"
+}

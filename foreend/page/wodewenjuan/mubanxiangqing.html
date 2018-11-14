@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>模板详情</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../../css/zidiyiwenjuan.css">
+</head>
+<body>
+	<div class="container">
+	<div class="row clearfix">
+		<header class="w-head-bg">
+		<!-- 导航 开始 -->
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-1"><a href="wodemuban.html" class="btn return">←返回</a></div>
+					<nav class="col-lg-offset-2 col-lg-6 text-center">
+						<h3 style="color: white">模板详情</h3>
+					</nav>
+				</div>
+			</div>
+		</header>
+	</div>
+	<div class="row clearfix w-content-bgc">
+		<div class="row clearfix center w-h-95">
+			<div class="col-md-12 column w-padding-b-150">
+				<div class="row">
+					<h4 class="text-center" id="title">
+						
+					</h4>
+					<p style="margin-top: 15px;text-indent:3em;">问卷描述：<span id="introduce"></span>  </p>
+				</div>
+				<div class="row" id="showDdetail">
+					<!-- <div class="col-md-12 column">
+						<div class="row  w-clear-margin ">
+							<p class="pull-left col-md-4">您的爱好是？</p>
+							<div class="pull-right col-md-3">
+								<button>删除</button><button>修改</button>
+							</div>
+						</div>
+						<ul class="row">
+							  <label  class="col-md-12"><input type="checkbox" class="bnt btn-default">选项一</label>
+							 <label  class="col-md-12"><input type="checkbox" class="bnt btn-default">选项二</label>
+						</ul> 
+					</div>
+					 -->
+				</div>
+				
+				<div class="row">
+					<div class="row w-p-15">
+						<p class="pull-left">
+						<span class="glyphicon glyphicon-plus-sign"></span>
+							<div class="btn-group">
+								
+							    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">增加题目
+							        <span class="caret"></span>
+							    </button>
+							    <ul class="dropdown-menu" role="menu">
+							        <li>
+							            <a href="#">单选</a>
+							        </li>
+							        <li>
+							            <a href="#">多选</a>
+							        </li>
+							        <li>
+							            <a href="#">填空题</a>
+							        </li>
+							    </ul>
+							</div>
+
+						</p>
+
+						<p class="pull-right">
+							<a href="#"><span class="glyphicon glyphicon-star-empty"></span></a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body" style="overflow: hidden;" id="showDetail">
+				
+			</div>
+			<div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary">提交更改</button>
+            </div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<script src="../../js/jquery.js"></script>
+<script src="../../js/cookie.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<script src="../../js/url.js"></script>
+<script src="../../js/common.js"></script>
+<script src="../../js/modlDetail.js"></script>
+</body>
+</html>
+
+
+
+

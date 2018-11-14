@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>增加模板</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../../css/zidiyiwenjuan.css">
+</head>
+<body>
+	<div class="container">
+	<div class="row clearfix w-head-bg">
+		<div class="col-md-8 column w-color-white">
+			<a href="templateLibrary.html" class="return">返回</a>
+			<h4 class="pull-right text-center" style="color: #fff;line-height: 35px;" id="target">增加模板</h4>
+		</div>
+		<div class="col-md-4 column text-right" >
+			 <button type="button" class="btn btn-default" id="saveTem">增加</button>
+		</div>
+	</div>
+	<div class="row clearfix w-content-bgc">
+		<div class="col-md-2 column ">
+			<div class="w-marin-lr border text-center w-height-200">
+				<h3>
+				常用题型
+				</h3>
+				<div class="btn-group btn-group-vertical">
+					 <button class="btn btn-default w-border-none" type="button"><span class="glyphicon glyphicon-record"></span> 单选</button>
+					  <button class="btn btn-default w-border-none" type="button"><span class="glyphicon glyphicon-record"></span> 多选</button> 
+					  <button class="btn btn-default w-border-none" type="button"><span class="glyphicon glyphicon-record"></span> 填空</button> 
+				</div>
+				<div class="col-md-12">
+							<p class="pull-left">
+							<span class="glyphicon glyphicon-plus-sign"></span>
+								<div class="dropdown">
+								    <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">增加题目
+								        <span class="caret"></span>
+								    </button>
+								    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1" id="checkTitle">
+								        <li role="presentation">
+								           <a role="menuitem" tabindex="-1" href="#" id="radio">单选</a>
+								        </li>
+								        <li role="presentation">
+								            <a role="menuitem" tabindex="-1" href="#" id="checkbox">多选</a>
+								        </li>
+								        <li role="presentation">
+								            <a role="menuitem" tabindex="-1" href="#" id="text">填空题</a>
+								        </li>
+								        </li>
+								    </ul>
+								</div>
+
+							</p>
+						</div>
+			</div>
+			
+		</div>
+		<div class="col-md-10 column ">
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+					<div class="row clearfix ">
+						<div class="col-md-12 column w-padding-b-150" id="bigBox">
+							<div class="row clearfix border w-marin-lr">
+								<h3 class="text-center" id="topic" contenteditable="true">
+									 问卷名称
+								</h3>
+								<div class="col-md-12 column">
+									<div class="row clearfix">
+										<div class="col-md-2 column border">
+
+										</div>
+										<div class="col-md-10 column border">
+											<p id="describe" contenteditable="true">
+												问卷描述
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row clearfix border w-m-t-15 text-center">
+								<ul class="pagination" id="page">
+									<li><a href="#">&laquo;</a></li>
+									<li><a href="#">&raquo;</a></li>
+								</ul>
+							</div>
+						
+						</div>
+	
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="../../js/jquery.js"></script>
+<script src="../../js/cookie.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<script src="../../js/url.js"></script>
+<script src="../../js/common.js"></script>
+<script src="../../js/customQuestionnaire.js"></script>
+
+</body>
+</html>
+
+
+
+

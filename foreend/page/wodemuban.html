@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>问卷模板</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/zidiyiwenjuan.css">
+</head>
+<body>
+	<div class="container">
+	<div class="row clearfix w-head-bg">
+		<header>
+		<!-- 导航 开始 -->
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-1"><a href="../index2.html" class="btn return">←返回</a></div>
+					<nav class="col-lg-offset-2 col-lg-6">
+						<ul class="nav nav-tabs nav-justified">
+						  <li><a href="members/list-arctil.html">创建全新问卷</a></li>
+						  <li><a href="wenjuanmuban.html">引入问卷模板</a></li>
+						  <li class="w-active"><a href="wodemuban.html">引入我的模板</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+	</div>
+	<div class="row clearfix w-content-bgc">
+		<table class="table table-hover text-center">
+		  <thead>
+		    <tr>
+		      <th class="text-center">名称</th>
+		      <th class="text-center">创建时间</th>
+		    </tr>
+		  </thead>
+		  <tbody id="titleBox">
+		   <!--  <tr>
+		      <td><a href="#myModal" data-toggle="modal"> 大学生消费观调查</a></td>
+		      <td>2017</td>
+		    </tr> -->
+		  </tbody>
+		</table>
+	</div>
+</div>
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" 
+						aria-hidden="true">×
+				</button>
+				
+				<h4 class="modal-title text-center" id="myModalLabel">
+					<button type="button" class="pull-left btn" style="background: #B37248;" id="userful">使用</button>
+					<h5 style="margin-left: 200px" id="title">关于大学生消费观调查</h5>
+				</h4>
+				<p style="margin-top: 15px;text-indent: 2em" id="introduce">关于大学生消费观调查关于大学生消费观调查关于大学生消费观调查关于大学生消费观调查关于大学生消费观调查关于大学生消费观调查</p>
+			</div>
+			<div class="modal-body" style="overflow: hidden;" id="showDdetail">
+				<!-- <div class="col-md-10 column">
+					<div class="row  w-clear-margin ">
+						<p class="pull-left">
+							多选题
+						</p>
+					</div>
+					<ul class="row">
+						  <label  class="col-md-12"><input type="checkbox" class="bnt btn-default">选项一</label>
+						 <label  class="col-md-12"><input type="checkbox" class="bnt btn-default">选项二</label>
+					</ul> 
+				</div> -->
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<script src="../js/url.js"></script>
+<script src="../js/jquery.js"></script>
+<script src="../js/cookie.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/myTemplate.js"></script>
+</body>
+</html>
+
+
+
+

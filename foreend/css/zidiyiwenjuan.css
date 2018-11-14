@@ -1,0 +1,101 @@
+/* 自定义问卷选项 start */
+/*body {
+	background: black;
+}*/
+ul {
+	list-style: none;
+}
+a.return {
+	line-height: 35px;
+    padding-top: 20px;
+    color: white;
+}
+a.return:hover {
+	 color: white;
+}
+.w-content-bgc {
+	background: white;
+	overflow: hidden;
+}
+.w-clear-margin {
+	margin-right: 0;
+	margin-left: 0;
+}
+.w-li-circle {
+	list-style: circle;
+}
+.w-padding-b-150 {
+	padding-bottom: 150px;
+}
+.w-p-15 {
+	padding-left:55px;
+	margin-right: 0;
+}
+.border {
+	border: 1px solid #8B8C87;
+}
+.w-m-t-15 {
+	margin: 15px 5px 0;
+}
+.w-marin-lr {
+	margin: 0 5px;
+}
+.w-color-white {
+	color: white;
+}
+.w-height-200 {
+	height: 400px;
+}
+.w-border-none {
+	border: none;
+}
+
+/* 问卷发布 start*/
+.w-height-600 {
+	height: 400px;
+}
+.w-color {
+	color: #BA7A4C;
+}
+.w-head-bg {
+	background: #000;
+	height: 60px;
+}
+/* end */
+
+/*
+	问卷模板 start
+*/
+
+.w-h-95 {
+	padding: 48px 0 0 15px;
+	height: 95px;
+}
+.w-model {
+	width: 150px;
+	height: 150px;
+	padding-top: 70px;
+	border: 1px solid #ccc;
+}
+/*
+	end
+*/
+
+/*
+	我的问卷 start 
+*/
+.w-list li {
+	max-height: 150px;
+	border: 2px solid #ccc;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+}
+/*
+	end
+*/
+
+/* search start*/
+.searchEnd {
+	background: rgba(0,0,0,0);
+}
+/* end */

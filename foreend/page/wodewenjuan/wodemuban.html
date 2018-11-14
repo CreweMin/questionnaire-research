@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>我的模板</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../../css/zidiyiwenjuan.css">
+</head>
+<body>
+	<div class="container">
+	<div class="row clearfix">
+		<header class="w-head-bg">
+		<!-- 导航 开始 -->
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-1"><a href="../../index2.html" class="btn return">←返回</a></div>
+					<nav class="col-lg-offset-2 col-lg-6 text-center">
+						<h3 style="color: white">我的模板</h3>
+					</nav>
+				</div>
+			</div>
+		</header>
+	</div>
+	<div class="row clearfix w-content-bgc">
+		<table class="table table-hover text-center">
+		  <thead>
+		    <tr>
+		      <th class="text-center">名称</th>
+		   <!--    <th class="text-center">创建时间</th> -->
+		      <th class="text-center">操作</th>
+		    </tr>
+		  </thead>
+		  <tbody id="modelList">
+		  </tbody>
+		</table>
+	</div>
+</div>
+<!-- 按钮触发模态框 -->
+
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title text-center" id="myModalLabel" style="color: #B9784E;">问卷调查系统</h4>
+            </div>
+            <div class="modal-body text-center">确定删除模板</div>
+            <div class="modal-footer" style="text-align: center;">
+                <button type="button" class="btn btn-primary" style="background: #B9784E; border-color:#B9784E;" onclick='deleteQuestionOnly()'>确定</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+<script src="../../js/jquery.js"></script>
+<script src="../../js/cookie.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<script src="../../js/url.js"></script>
+<script src="../../js/common.js"></script>
+<script src="../../js/myModel.js"></script>
+</body>
+</html>
+
+
+
+

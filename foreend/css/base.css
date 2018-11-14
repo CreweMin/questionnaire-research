@@ -1,0 +1,161 @@
+
+.body {
+	background: url(../images/bg.jpg) no-repeat;
+	background-size: cover; 
+	color:white;
+}
+.color {
+	color: black;
+}
+a.return {
+	line-height: 35px;
+    padding-top: 20px;
+    color: white;
+}
+a.return:hover {
+	 color: white;
+}
+.w-title-color {
+	color: #B8794E;
+	font-size: 24px;
+    font-weight: bold;
+}
+.w-button-bg {
+	background: #B8794E;
+}
+.w-active {
+	background: #C17A4C;
+}
+
+/* 开始页 */
+.w-margin-top-100 {
+	margin-top: 100px;
+}
+.w-margin-tb-20 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+/*
+	字体加粗
+*/
+#index .w-bold {
+	font: bold;
+}
+#index h1 {
+	font-size: 54px;
+}
+#index h1,#index p {
+	color: white;
+}
+#index .w-border-30 {
+	border-radius: 30px;
+	margin-top:15px;
+	border: white 3px solid;
+	color: white;
+	background: rgba(0,0,0,0);
+}
+#index a {
+	background: #ccc;
+	font-style: bold;
+	font-size: 24px;
+}
+#index a {
+	outline: 0;
+}
+.w-head-bg {
+	background: #000;
+	height: 60px;
+}
+/* 模态框样式 */
+#loginModal {
+	color: #82766f;
+	font-size: 24px;
+	font-weight: bold;
+}
+.w-sm-screen {
+	margin-top: 10px;
+}
+.checkbox {
+	color: black;
+}
+/* 开始页结束 */
+
+/* index2 start */
+.modal-body .form-group > div{
+	margin-bottom: 15px;
+}
+.modal-footer {
+	text-align: center;
+}
+.user-ul {
+	min-width: 80px;
+	text-align: center;
+}
+.user-style {
+	padding: 5px;
+	color: #CB8A60;
+	cursor: pointer;
+}
+#searchBox {
+	position: relative;
+}
+#welcome {
+	
+	float: right;
+}
+#welcome span {
+	padding: 0 5px;
+}
+.nav li a {
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+}
+.nav li a:hover{
+	color: black;
+	background: #C17A4C;
+	border-color: #C17A4C;
+}
+/* index2 end */
+
+/* list-arctil start*/
+#w-create-form {
+	border: 1px solid #ccc;
+    padding: 50px 0;
+    border-radius: 5px;
+}
+
+.w-btn-lg {
+	height: 150px;
+	padding-right: 10px;
+}
+.w-btn-lg  h3 {
+	border: 1px solid #ccc;
+}
+/* list-arctil end */
+
+/*  返回的样式  start*/
+.return:hover {
+	color: white;
+}
+/*  返回的样式 end  */
+
+.w-wh-130{
+	width: 130px;
+	height: 130px;
+	text-align: center;
+	padding-top: 50px;
+}
+/* 问卷模板 start*/
+#searchBtn:hover {
+	background: #999;
+}
+.w-marin-lr {
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: bold;
+}
+.w-marin-lr div:hover {
+	color: red;
+}
+/*  end */
