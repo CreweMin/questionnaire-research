@@ -1,5 +1,5 @@
 # questionnaire-research
-问卷调查系统 Python
+问卷调查系统 Python  
 1、后端为Python+Flask+SQLAlchemy+Nose实现;  
 2、前端为HTML+CSS+JavaScript+Jquery实现;  
 3、需安装对应的后端环境(Python,Flask,SQLAlchemy,Nose);  
